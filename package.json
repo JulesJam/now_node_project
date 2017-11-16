@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "now-start": "node index.js",
     "build": "echo No Build Script",
+    "now-build": "echo NOW BUILD SCRIPT NOT SET UP",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Julian Wyatt",
