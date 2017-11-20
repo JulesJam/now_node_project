@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req,res)=>{
   /*res.send(`<h1>Hello World</h1>
     <h2>The Current Time is: ${new Date().toISOString()}!</h2>`)*/
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile('index.html');
 });
 
 app.listen(3000, function(){
